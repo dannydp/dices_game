@@ -11,7 +11,7 @@ module Dices
     end
 
     def destroy_player! current_player
-      @players.delete_if { |player| player.name == current_player.name}
+      @players.delete_if { |player| player.name == current_player.name }
     end
   end
 end

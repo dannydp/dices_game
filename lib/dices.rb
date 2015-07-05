@@ -16,4 +16,9 @@ game = Dices::Game.new
 player = Player.new 'Jack'
 
 game.login! player
+player.show_credit
+game.run 10, 200
+player.show_credit
+game.run 7, 100
+player.show_credit
 game.logout! player
