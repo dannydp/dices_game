@@ -1,4 +1,6 @@
+require_relative 'core_ext/object'
 require_relative 'dices/game'
+require_relative 'player'
 module Dices
 
   RELEASE = "1"

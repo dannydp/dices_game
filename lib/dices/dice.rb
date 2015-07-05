@@ -6,7 +6,7 @@ module Dices
     end
 
     def roll
-      rand(1..@slides)
+      rand(1..@sides)
     end
 
   end
